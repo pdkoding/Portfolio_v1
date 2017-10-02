@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background: #333333;
+	padding: 10px;
+	overflow: auto;
+}
+nav a {
+	float: left;
+	color: #ffffff;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.search {
+	float: right;
+}
+
+header {
+	background: #cccccc;
+	padding: 15px;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+main {
+	overflow: auto;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.col-3 {
+	float: left;
+	width: 33.3%;
+}

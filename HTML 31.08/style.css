@@ -1,0 +1,235 @@
+html {
+  font-size: 62.5%; 
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.TopHeader {
+	background: #f8f8f8;
+	height: 4.0em;
+}
+    
+.TopContainer {	
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.TopContainer a {
+	height: 2.0em;
+	font-size: 1.8em;	
+	color: #a2a2a2;
+}
+
+.TopContainerGroup {
+	float: right;
+}
+
+.Search {	
+	float: right;
+}
+
+.BottomHeader{
+	height: 100px;
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+.BottomHeader a {
+	font-size: 2.4em;
+	color: #000000;
+	padding-top: auto;
+	margin: 5px;
+}
+
+.Button {
+	border: 1px solid black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}	
+
+.BottomHeaderGroup { 
+     float: right;
+	 margin: 5px;
+}
+
+.MainSlide {	
+	 background-image: url("http://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide3_image.jpg?5927162898222511553");
+	 position: relative;
+	 left: 0px;
+	 height: 812px;
+	 top: 50px;
+	 z-index: -1;
+	 opacity:0.9;
+	 margin-bottom: 40px;
+	 display: block;
+	 padding: 40px;
+}
+
+.TextMainSlide {
+	top: 230px;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 36px; 
+	z-index: 1;		
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+    color: white;
+}
+
+.SlideGroup{ 
+	position: relative;
+	margin: auto;
+	text-align: center;	
+	width: 1400px;		
+}
+
+.button {
+    margin: auto;
+    padding: 15px 25px;
+    font-size: 48px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666666;
+    transform: translateY(4px);
+}
+
+.SlideGroup div{
+     float:left;	
+	 margin: 20px;
+	 top: 650px;
+	 z-index: 1;
+	 height: 236px;	
+	 width: 370px;
+	 text-align: center;
+}
+
+.SlideGroup h {
+	position: relative;
+	float: left;
+	left: 20px;
+	top: 90px;
+	font: 3em "Helvetica Neue", Helvetica, Arial, bold;
+	color: #ffffff;
+}
+
+.SlideGroup p {
+	position: relative;
+	float: left;
+	left: 20px;
+	top: 80px;
+	font: 2em "Helvetica Neue", Helvetica, Arial, bold;
+	color: #ffffff;
+}
+
+.FirstSlide {
+	background-image: url("custom_showcase1_img.jpg");
+	position: relative;
+}
+
+.SecondSlide {
+	background-image: url("http://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/custom_showcase2_img.jpg?5927162898222511553");
+    position: relative;
+}
+
+.ThirdSlide {
+	background-image: url("http://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/custom_showcase3_img.jpg?5927162898222511553");
+    position: relative;
+}
+
+.Header {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	font-size: 3em;
+	text-align: center;
+	padding-top: 160px;
+}
+
+.Main{ 	
+	text-align: center;
+	margin-left: 200px;
+	
+}
+
+.Main div{
+     padding top: 500px;
+}
+
+.Add1 {
+	background-image: url("akg_aviation_av100_anr_headset_01_270x335_crop_top.png");
+	width: 270px;
+	height: 335px;
+	background-position: center; 
+	float: left;
+	margin: 10px;
+}
+
+.Add2 {
+	background-image: url("alpha_industries_men_s_cwu_pilot_x_flight_jacket_01_270x335_crop_top.png");
+	width: 270px;
+	height: 335px;
+	background-position: center; 
+	float:left;
+	margin: 10px;
+}
+
+.Add3 {
+	background-image: url("american_optical_original_pilot_eyewear_57mm_frame_1_large.png");
+	width: 270px;
+	height: 335px;
+	background-position: center; 
+	float:left;
+	margin: 10px;
+}
+
+.Add4 {
+	background-image: url("aspen_avionics_evolution_01_large.png");
+	width: 270px;
+	height: 335px;
+	background-position: center; 
+	float:left;
+	margin: 10px;
+}
+
+.Main h {
+	text-align: center;
+	position: relative;
+	top: 340px;
+	font: 26px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000000;
+}
+.Main p {
+	text-align: center;
+	position: relative;
+	top: 320px;
+	font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #66ffff;
+}
+
+
+
+ 
+
+
+
+

@@ -1,0 +1,516 @@
+div[id] {
+	background:  #cccccc;
+	float: left;
+}
+
+#M_p_1{	
+	width:16px;
+	height:70px;
+	margin-top: 35px;
+	margin-right: 8px;
+	border-top-left-radius: 8px;
+	-webkit-border-radius-top-left: 8px;
+}
+
+#M_p_2{	
+	width: 14px;
+	height: 70px;
+	margin-top: 35px;
+	margin-right: 15px;
+	-webkit-transform: skew(20deg);
+}
+
+#M_p_3{	
+	width: 14px;
+	height: 70px;
+	margin-top: 35px;
+	margin-right: 8px;
+	-webkit-transform: skew(160deg);
+}
+
+#M_p_4{
+	width:16px;
+	height:70px;
+	margin-top: 35px;
+	margin-right: 10px;
+}
+
+#A_p_1 {
+	width: 52px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: -36px;
+	border-radius: 52px;
+}
+
+#A_p_2 {
+	width: 28px;
+	height: 30px;
+	margin-top: 63px;
+	margin-right: -2px;
+	background: #ffffff;
+	z-index: 1;
+	border-radius: 15px / 14px;
+}
+
+#A_p_3 {
+	width: 16px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: 20px;
+	z-index: -1;
+}
+
+#Y_p_1 {
+	width: 16px;
+	height: 54px;
+	margin-top: 52px;
+	-webkit-transform: skew(20deg);
+}
+
+#Y_p_2 {
+	width: 16px;
+	height: 78px;
+	margin-top: 52px;
+	margin-right: 20px;
+	border-bottom-right-radius: 10px;
+	-webkit-transform: skew(160deg);
+}
+
+#D_p_1 {
+	width: 52px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: -36px;
+	border-radius: 52px;				
+}
+
+#D_p_2 {
+	width: 28px;
+	height: 30px;
+	margin-top: 63px;
+	margin-right: -2px;
+	background: white;
+	z-index: 1;
+	border-radius: 15px / 14px;		
+}
+
+#D_p_3 {
+	width: 16px;
+	height: 70px;
+	margin-top: 35px;
+	margin-right: 10px;
+	border-top-right-radius: 8px;
+	z-index: -1;
+}
+
+#E_p_1 {
+	width: 54px;
+	height: 54px;
+	margin-top: 52px;
+	margin-right: -40px;
+    border-radius: 27px;
+}
+
+#E_p_2 {
+	height: 14px;
+    width: 28px;
+	margin-top: 62px;
+	margin-right: -40px;
+    border-radius: 14px 14px 0 0;
+	background: #ffffff;
+}
+
+#E_p_3 {
+	height: 14px;
+    width: 28px;
+	margin-top: 84px;
+	margin-right: -3px;
+    border-radius: 0 0 14px 14px;
+	background: #ffffff;
+}
+
+#E_p_4 {
+	margin-top: 84px;
+	margin-right: 10px;
+	border-top: 7px solid #ffffff;
+	border-left: 15px solid #ffffff;
+}
+
+#N_p_1 {
+	width: 16px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: 0px;	
+}
+
+#N_p_2 {
+	position: relative;
+	width: 16px;
+	height: 18px;
+	margin-top: 66px;
+	margin-right: -20px;
+	border-radius: 100% 100% 0 0;
+	background: #ffffff;
+	z-index: 10;
+}
+
+#N_p_3 {
+	width: 32px;
+	height: 20px;
+	margin-top: 52px;
+	margin-right: -16px;
+	border-radius: 14px 14px 0 0;
+}
+
+#N_p_4 {
+	width: 16px;
+	height: 34px;
+	margin-top: 70px;
+	margin-right: 60px;
+	border-bottom-left-radius: 8px;
+}
+
+#CptlA_p_1 {
+	width: 18px;
+	height: 70px;
+	border-top-left-radius: 8px;
+	margin-top: 35px;
+	margin-right: -25px;
+	-webkit-transform: skew(160deg);
+}
+
+#CptlA_p_2 {
+	width: 38px;
+	height: 14px;
+	margin-top: 76px;
+	margin-right: -10px;
+}
+
+#CptlA_p_3 {
+	width: 18px;
+	height: 70px;
+	border-top-left-radius: 8px;
+	margin-top: 35px;
+	margin-right: 15px;
+	-webkit-transform: skew(20deg);
+}
+
+#C_p_1 {
+	width: 52px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: -36px;
+	border-radius: 52px;
+}
+
+#C_p_2 {
+	width: 28px;
+	height: 30px;
+	margin-top: 63px;
+	margin-right: -2px;
+	background: #ffffff;
+	z-index: 1;
+	border-radius: 15px / 14px;
+}
+
+#C_p_3 {
+	width: 16px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: -5px;
+	z-index: -1;
+	background: #ffffff;
+}
+
+#Ars_p_1 {
+	width: 52px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: -36px;
+	border-radius: 52px;
+}
+
+#Ars_p_2 {
+	width: 28px;
+	height: 30px;
+	margin-top: 63px;
+	margin-right: -2px;
+	background: #ffffff;
+	z-index: 1;
+	border-radius: 15px / 14px;
+}
+
+#Ars_p_3 {
+	width: 16px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: 10px;
+	z-index: -1;
+}
+
+#Drs_p_1 {
+	width: 52px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: -36px;
+	border-radius: 52px;				
+}
+
+#Drs_p_2 {
+	width: 28px;
+	height: 30px;
+	margin-top: 63px;
+	margin-right: -2px;
+	background: white;
+	z-index: 1;
+	border-radius: 15px / 14px;		
+}
+
+#Drs_p_3 {
+	width: 16px;
+	height: 70px;
+	margin-top: 35px;
+	margin-right: 10px;
+	border-top-right-radius: 8px;
+	z-index: -1;
+}
+
+#Ers_p_1 {
+	width: 54px;
+	height: 54px;
+	margin-top: 52px;
+	margin-right: -40px;
+    border-radius: 27px;
+}
+
+#Ers_p_2 {
+	height: 14px;
+    width: 28px;
+	margin-top: 62px;
+	margin-right: -40px;
+    border-radius: 14px 14px 0 0;
+	background: #ffffff;
+}
+
+#Ers_p_3 {
+	height: 14px;
+    width: 28px;
+	margin-top: 84px;
+	margin-right: -3px;
+    border-radius: 0 0 14px 14px;
+	background: #ffffff;
+}
+
+#Ers_p_4 {
+	margin-top: 84px;
+	margin-right: 10px;
+	border-top: 7px solid #ffffff;
+	border-left: 15px solid #ffffff;
+}
+
+#Nrs_p_1 {
+	width: 16px;
+	height: 52px;
+	margin-top: 52px;
+	margin-right: 0px;	
+}
+
+#Nrs_p_2 {
+	position: relative;
+	width: 16px;
+	height: 18px;
+	margin-top: 66px;
+	margin-right: -20px;
+	border-radius: 100% 100% 0 0;
+	background: #ffffff;
+	z-index: 10;
+}
+
+#Nrs_p_3 {
+	position: relative;
+	width: 32px;
+	height: 20px;
+	margin-top: 52px;
+	margin-right: -16px;
+	border-radius: 14px 14px 0 0;
+}
+
+#Nrs_p_4 {
+	position: relative;
+	width: 16px;
+	height: 34px;
+	margin-top: 70px;
+	margin-right: 0px;
+	border-bottom-left-radius: 8px;
+}
+#Nrs_p_5 {
+	position: relative;
+	width: 16px;
+	height: 18px;
+	margin-top: 66px;
+	margin-right: -20px;
+	border-radius: 100% 100% 0 0;
+	background: #ffffff;
+	z-index: 10;
+}
+
+#Nrs_p_6 {
+	width: 32px;
+	height: 20px;
+	margin-top: 52px;
+	margin-right: -16px;
+	border-radius: 14px 14px 0 0;
+}
+
+#Nrs_p_7 {
+	width: 16px;
+	height: 34px;
+	margin-top: 70px;
+	margin-right: 14px;
+	border-bottom-left-radius: 8px;
+}
+
+#Yrs_p_1 {
+	width: 16px;
+	height: 54px;
+	margin-top: 52px;
+	-webkit-transform: skew(20deg);
+}
+
+#Yrs_p_2 {
+	width: 16px;
+	height: 78px;
+	margin-top: 52px;
+	margin-right: 10px;
+	border-bottom-right-radius: 10px;
+	-webkit-transform: skew(160deg);
+}
+
+#Green {
+	position: absolute;
+	height: 90px;
+    width: 180px;
+	margin-top: 49px;
+	margin-left: 900px;
+    border-radius: 90px 90px 0 0;
+	background: #94BA66;
+	transform: rotate(290deg);
+	z-index: 3;
+}
+
+#Light_Blue {
+	position: absolute;
+	height: 90px;
+    width: 180px;
+	margin-top: 49px;
+	margin-left: 985px;
+    border-radius: 90px 90px 0 0;
+	background: #298FB0;
+	transform: rotate(70deg);
+	z-index: 2;
+}
+
+#DarkBlue {
+	position: absolute;
+	height: 90px;
+    width: 180px;
+	margin-top: 110px;
+	margin-left: 943px;
+    border-radius: 90px 90px 0 0;
+	background: #295074;
+	transform: rotate(180deg);
+	z-index: 1;
+}
+
+#RedTriangle {
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 993px;
+	border-bottom: 80px solid #F27324; 
+	border-left: 40px solid transparent; 
+    border-right: 40px solid transparent;
+	z-index: 4;
+}
+
+#BigA_p_1 {
+	position: absolute;
+	width: 40px;
+	height: 180px;
+	border-top-left-radius: 11px;
+	margin-top: 19px;
+	margin-left: 980px;
+	background: white;
+	-webkit-transform: skew(160deg);
+	z-index: 10;
+}
+
+#BigA_p_2 {
+	position: absolute;
+	width: 70px;
+	height: 30px;
+	margin-top: 130px;
+	margin-left: 1000px;
+	background: white;
+	z-index: 10;
+}
+
+#BigA_p_3 {
+	position: absolute;
+	width: 40px;
+	height: 180px;
+	border-top-left-radius: 8px;
+	margin-top: 19px;
+	margin-left: 1045px;
+	background: white;
+	-webkit-transform: skew(20deg);
+	z-index: 10;
+}
+
+#LogoFix_1 {
+	position: absolute;
+	background: transparent;
+	margin-top: 30px;
+	margin-left: 1031px;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 40px solid #298FB0;
+	border-radius: 50%;
+	transform: rotate(35deg);
+	z-index: 5;
+}
+
+#LogoFix_2 {
+	position: absolute;
+	background: transparent;
+	margin-top: 138px;
+	margin-left: 972px;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 60px solid #295074;
+	border-radius: 50%;
+	transform: rotate(180deg);
+	z-index: 5;
+}
+
+#LogoFix_3 {
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	margin-top: 145px;
+	margin-left: 1035px;
+	background: #295074;
+	transform: rotate(70deg);
+	z-index: 5;
+}
+
+#LogoFix_4 {
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	margin-top: 150px;
+	margin-left: 980px;
+	background: #295074;
+	transform: rotate(110deg);
+	z-index: 5;
+}
