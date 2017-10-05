@@ -11,7 +11,7 @@ function add() {
     $query->bindParam(':title', $title);
     $query->bindParam(':content', $text);
     $query->execute();
-    header("Location: index.php");
+    header("Location: update_page.php");
 }
 
 add();

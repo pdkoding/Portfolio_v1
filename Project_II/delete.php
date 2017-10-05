@@ -9,7 +9,7 @@ function delete() {
     $query->bindParam(':content_name', $_POST['delete']);
     $query->execute();
 
-    header("Location: index.php");
+    header("Location: update_page.php");
 }
 
 delete();

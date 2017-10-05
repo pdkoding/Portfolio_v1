@@ -1,5 +1,8 @@
 <?php
-
+/*
+* For delete menu
+* Delete the selected row from delete menu
+*/
 function get_delete_data() {
     $db = new PDO('mysql:host=127.0.0.1;dbname=Project_DB', 'root');
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
