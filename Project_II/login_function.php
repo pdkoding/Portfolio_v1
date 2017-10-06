@@ -11,7 +11,7 @@ $password = 'hey';
 */
 function LogIn($username, $password) {
     if ($username === $_POST['Username'] && $password === $_POST['Password']) {
-        $_SESSION['loggedIn'] = true;
+        $_SESSION['loggedIn'] = 1;
         header('Location: update_page.php');
         exit();
     }   else {

@@ -1,7 +1,5 @@
 <?php
-
-session_start();
-$expire_after = 1;
+$expire_after = 5;
 function session_length($expire_after){
     if (isset($_SESSION['last_action'])) {
         $seconds_inactive = time() - $_SESSION['last_action'];
@@ -16,6 +14,9 @@ function session_length($expire_after){
 session_length($expire_after);
 $_SESSION['last_action'] = time();
 
+session_start();
 if(isset($_SESSION['loggedIn'])){
     header("location: update_page.php");
 }
+
+?>

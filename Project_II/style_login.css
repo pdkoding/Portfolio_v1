@@ -1,17 +1,7 @@
 body {
     background-color: #cce6ff;
 }
-/*
-.contaner {
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    border-style: groove;
-    border-width: 4px;
-    background-color: #ff3300;
-    padding: 30px;
-}
-*/
+
 .contaner {
     position: absolute;
     background-color: #ffff80;

@@ -3,6 +3,20 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+
+a:link, a:visited {
+    background-color: #9fff80;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #009900;
+}
+
 .add {
     position: absolute;
     width : 550px;
@@ -12,7 +26,7 @@ body {
 
 .edit {
     position: absolute;
-    width : 550px;
+    width : 360px;
     float: left;
     margin: 10% 60%;
 }
@@ -26,14 +40,14 @@ h1 {
 
 .HomePage {
     position: absolute;
-    top: 10%;
-    left: 45%;
+    top: 15%;
+    left: 42%;
 }
 
 .LogOut {
     position: absolute;
-    top: 10%;
-    left: 53%;
+    top: 15%;
+    left: 54%;
 }
 
 .Submit {
@@ -51,10 +65,23 @@ input[type=submit] {
     margin-top:8px;
     border:1px solid #ccc;
     padding-left:5px;
-    font-size:16px;
+    font-size:15px;
     border-radius:2px;
 }
 
 .edit form {
     margin-top: 20px;
+}
+
+p {
+    font-size:20px;
+}
+
+select {
+    font-size:16px;
+    margin:4px auto;
+    text-align:left;
+    padding:10px 5px 10px 5px;
+    border:1px solid #777777;
+    border-top:none;
 }

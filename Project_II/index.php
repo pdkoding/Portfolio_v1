@@ -1,5 +1,4 @@
 <?php
-session_start();
 include 'session_settings.php';
 ?>
 <!DOCTYPE html>
